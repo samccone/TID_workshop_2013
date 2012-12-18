@@ -1,0 +1,67 @@
+#people
+  text-align: center
+  position relative
+  padding: 20px 0
+  ul
+    list-style: none
+    position relative
+    z-index 2
+    margin: 0px
+    font-size: 0px
+    padding: 0px
+    li
+      display: inline-block
+      width: 11.1111111%
+      overflow: hidden
+      position: relative
+      &.active
+        img
+          z-index: 12
+      img
+        width: 100%
+        height: auto
+        position relative
+        -webkit-filter: grayscale(100%)
+      .cover
+        background rgba(100, 164, 233, 0.6)
+        height: 100%
+        width: 100%
+        position: absolute
+        top 0
+        left 0
+  .background
+    position absolute
+    height: 100%
+    width 100%
+    background rgba(100, 164, 233, 0.6)
+    top 0px
+    z-index -1
+
+#bio-wrap
+  max-width: 900px
+  margin: 0px auto
+  margin-top: 20px
+  .image
+    width: 20%
+    position: relative
+    img
+      max-width: 100%
+      height: auto
+
+  .text
+    text-align: left
+    width: 70%
+    margin-left: 10%
+    p
+      margin: 0px
+      @extend .light
+      &.bio
+        font-size: 16px
+        line-height: 25px
+        b
+          color #777
+    b
+      display: block
+      margin-bottom: 10px
+      @extend .bold
+      font-weight: normal

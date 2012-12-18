@@ -1,0 +1,18 @@
+normalize()
+@import "_fonts"
+@import "_base"
+
+html
+  -webkit-transform: rotateY(0deg)
+
+.hold
+  max-width: 1000px
+  margin: 0px auto
+
+#wrap
+  padding-top: 20px
+  @extend .hold
+  @import "_nav"
+  @import "_hero"
+  @import "_description"
+  @import "_people"

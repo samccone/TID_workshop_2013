@@ -1,0 +1,49 @@
+#wrap
+  header
+    ul#nav.right
+      li
+        a(href="#about") about
+      li
+        a(href="#register") register
+      li
+        a(href="#people") staff
+  .cl
+  #hero
+    h1 TID Workshop 2013
+    .text_wrap
+      h4 Examining the thought behind the image
+
+  .description_block
+    h5.left What.
+    .description.right The Image, Deconstructed will hold a three-day workshop in conjunction with The University of North Carolina at Chapel Hill. Our mission is to help participants gain a better understanding of a purposeful, mental approach to visual communication.
+    .cl
+  .description_block
+    h5.left WHERE.
+    .description.right The University of North Carolina
+                      | Carroll Hall </br>
+                      | Chapel Hill, NC </br>
+                      | March 22-24 </br>
+                      | Workshop begins 9:30 am the 22nd, finishes 4pm Sunday the 24th.
+    .cl
+  .description_block
+    h5.left INFO.
+    .description.right Students are encouraged to bring their gear for some limited shooting exercises. </br> Time will be available for portfolio advice/feedback.
+    .cl
+  #people
+    ul
+      - ["/img/preston.jpeg","/img/chads.jpg","/img/justincook.jpg","/img/logan1.jpg","/img/Martin_Smith_Rodden_1.jpg","/img/melissa.jpg",'/img/pattie.jpg', "/img/ScottStrazzanteMug.jpg", "/img/rosst.jpg"].forEach(function(elm, index){
+        li(class = (!index ? "active" : ""))
+          img(src="#{elm}")
+          .cover
+      - })
+    .background
+  #bio-wrap
+    .left.image
+      img(src="/img/preston.jpeg")
+    .left.text
+      p.bio
+        |  <b>Preston Gannaway</b> has worked as a documentary newspaper photographer for more than 10 years. She worked for The Virginian-Pilot in Norfolk, Va., prior to that, she spent a year on staff at the Rocky Mountain News before its closure in 2009 and worked for the Concord Monitor in New Hampshire (2003-2008). Gannaway's documentary story on the St. Pierre family, Remember Me, was awarded the 2008 Pulitzer Prize for feature photography.
+        |
+        |  In 2011, Gannaway was named runner-up Photojournalist of the Year (Large Markets) by the National Press Photographer's Association. Her work has been honored in numerous other national and international competitions including Pictures of the Year International's One Week's Work and an award of excellence in Best Multimedia Project. A native of North Carolina, she began her career at the Coalfield Progress in rural southwest Virginia after earning a Bachelor of Arts in fine art photography at Virginia Intermont College.
+        |  </br> www.prestongannaway.com
+    .cl
