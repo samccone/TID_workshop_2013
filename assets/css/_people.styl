@@ -14,6 +14,7 @@
       width: 11.1111111%
       overflow: hidden
       position: relative
+      cursor: pointer
       &.active
         img
           z-index: 12
@@ -22,6 +23,7 @@
         height: auto
         position relative
         -webkit-filter: grayscale(100%)
+        border: 0px;
       .cover
         background rgba(100, 164, 233, 0.6)
         height: 100%
@@ -57,11 +59,12 @@
       @extend .light
       &.bio
         font-size: 16px
-        line-height: 25px
-        b
-          color #777
+        line-height: 37px
     b
       display: block
       margin-bottom: 10px
       @extend .bold
       font-weight: normal
+    p.links
+      display: inline-block
+      margin-top: 10px

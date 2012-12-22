@@ -1,18 +1,41 @@
+.description_hold
+  @extend .hold
 .description_block
-  width: 90%
+  position: relative
+  width: 100%
   margin: 0px auto
   @extend .normal
+  .fill
+    position: absolute
+    width: 100%
+    background: #F7F7F7
+    left: 0px
+    height: 100%
   h5
-    @extend .bold
-    width: 30%
+    padding-left: 3%;
+    width: 27%
     color: #777
     font-size: 40px
     text-transform: uppercase
+    position: relative
+    @extend .bold
   .description
-    width: 70%
+    width: 67%
+    padding-right: 3%;
     position: relative;
-    top: 54px;
+    top: 64px;
     font-size: 15px
     line-height: 23px
     color: rgb(97, 97, 97);
     margin-bottom: 54px;
+  @media screen and (max-width: 695px)
+    h5
+      float: none
+    .description
+      width: 94%
+      padding-left: 3%
+      padding-right: 3%
+      float: none
+      top: 0px;
+      margin-top: -50px;
+      padding-bottom: 20px;
