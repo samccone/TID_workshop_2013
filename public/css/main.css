@@ -225,7 +225,8 @@ table {
 .bold,
 #wrap #hero h1,
 #wrap .description_block h5,
-#wrap #bio-wrap .text b {
+#wrap #bio-wrap .text b,
+#wrap #calendar-wrap .inner h5 {
   font-family: 'bentonsansbold';
 }
 .light,
@@ -412,13 +413,16 @@ html {
     text-align: left;
     width: 70%;
     margin-left: 10%;
+    margin-bottom: 20px;
   }
   #wrap #bio-wrap .text p {
     margin: 0px;
   }
   #wrap #bio-wrap .text p.bio {
     font-size: 16px;
-    line-height: 37px;
+    line-height: 28px;
+    max-height: 500px;
+    overflow: auto;
   }
   #wrap #bio-wrap .text b {
     display: block;
@@ -458,8 +462,33 @@ html {
   #wrap .register_container .register:hover {
     background: #ee5363;
   }
+  #wrap #calendar-wrap {
+    background: #f7f7f7;
+    padding-bottom: 20px;
+  }
+  #wrap #calendar-wrap .inner {
+    max-width: 1000px;
+    margin: 0px auto;
+  }
+  #wrap #calendar-wrap .inner h5 {
+    width: 97%;
+    color: #777;
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-left: 3%;
+    padding-top: 50px;
+  }
+  #wrap #calendar-wrap .inner iframe {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+  }
  {
   padding-top: 20px;
+
 
 
 
@@ -624,13 +653,16 @@ html {
   text-align: left;
   width: 70%;
   margin-left: 10%;
+  margin-bottom: 20px;
 }
 #wrap #bio-wrap .text p {
   margin: 0px;
 }
 #wrap #bio-wrap .text p.bio {
   font-size: 16px;
-  line-height: 37px;
+  line-height: 28px;
+  max-height: 500px;
+  overflow: auto;
 }
 #wrap #bio-wrap .text b {
   display: block;
@@ -669,4 +701,28 @@ html {
 }
 #wrap .register_container .register:hover {
   background: #ee5363;
+}
+#wrap #calendar-wrap {
+  background: #f7f7f7;
+  padding-bottom: 20px;
+}
+#wrap #calendar-wrap .inner {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+#wrap #calendar-wrap .inner h5 {
+  width: 97%;
+  color: #777;
+  font-size: 40px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0px;
+  padding-bottom: 20px;
+  padding-left: 3%;
+  padding-top: 50px;
+}
+#wrap #calendar-wrap .inner iframe {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: block;
 }
