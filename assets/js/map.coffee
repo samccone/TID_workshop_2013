@@ -6,7 +6,7 @@ window.TID.setMap = () ->
     markerLayer = mapbox.markers.layer()
     interaction = mapbox.markers.interaction(markerLayer)
     map.addLayer markerLayer
-
+    map.ui.zoomer.add()
     map.eventHandlers[3].remove()
     if window.devicePixelRatio > 1
       map.tileSize = x: 128, y: 128
