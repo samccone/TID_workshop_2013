@@ -10,7 +10,7 @@ window.TID.setMap = () ->
     map.eventHandlers[3].remove()
     if window.devicePixelRatio > 1
       map.tileSize = x: 128, y: 128
-    map.centerzoom { lat: 37.935108, lon: -79.022798 }, 7
+    map.centerzoom { lat: 36.004389, lon: -79.044742 }, 11
     addMarkers(markerLayer)
 
     interaction.formatter (feature) ->
@@ -29,9 +29,9 @@ addMarkers = (markerLayer) ->
 
  markerLayer.add_feature
   geometry:
-    coordinates: [-78.672715,  35.78531]
+    coordinates: [-79.044742,  35.904389]
   properties:
     'marker-color': '#505050'
     'marker-symbol': 'triangle'
     'title': "Workshop"
-    'details': ''
+    'details': 'Carroll Hall School of Journalism and Mass Communication University of North Carolina at Chapel Hill   Chapel Hill NC 27599-3365'
