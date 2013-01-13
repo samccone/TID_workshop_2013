@@ -1,7 +1,7 @@
 (function() {
   var addMarkers;
 
-  window.TID = window.tid || {};
+  window.TID = window.TID || {};
 
   window.TID.setMap = function() {
     return mapbox.load('samccone.map-kqrmoat7', function(o) {

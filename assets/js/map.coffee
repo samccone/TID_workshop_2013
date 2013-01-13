@@ -1,4 +1,4 @@
-window.TID = window.tid || {}
+window.TID = window.TID || {}
 
 window.TID.setMap = () ->
   mapbox.load 'samccone.map-kqrmoat7', (o) ->
