@@ -225,6 +225,7 @@ table {
 .bold,
 #wrap #hero h1,
 #wrap .description_block h5,
+#wrap #people h5,
 #wrap #bio-wrap .text b,
 #wrap #calendar-wrap .inner h5 {
   font-family: 'bentonsansbold';
@@ -355,6 +356,17 @@ html {
     position: relative;
     padding: 20px 0;
   }
+  #wrap #people h5 {
+    width: 97%;
+    color: #fff;
+    text-align: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0px;
+    padding-bottom: 20px;
+    left: 12%;
+  }
   #wrap #people ul {
     list-style: none;
     position: relative;
@@ -365,7 +377,7 @@ html {
   }
   #wrap #people ul li {
     display: inline-block;
-    width: 11.1111111%;
+    width: 10%;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -486,8 +498,26 @@ html {
     margin-left: 20px;
     display: block;
   }
+  #wrap #map-hold {
+    width: 100%;
+    height: 400px;
+  }
+  #wrap #map-hold h2 {
+    margin: 5px 0px;
+  }
+  #wrap #map-hold p.details {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  #wrap #map-hold .map-attribution.map-mm {
+    display: none;
+  }
+  #wrap #map-hold img {
+    border: 0px;
+  }
  {
   padding-top: 20px;
+
 
 
 
@@ -595,6 +625,17 @@ html {
   position: relative;
   padding: 20px 0;
 }
+#wrap #people h5 {
+  width: 97%;
+  color: #fff;
+  text-align: left;
+  font-size: 40px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0px;
+  padding-bottom: 20px;
+  left: 12%;
+}
 #wrap #people ul {
   list-style: none;
   position: relative;
@@ -605,7 +646,7 @@ html {
 }
 #wrap #people ul li {
   display: inline-block;
-  width: 11.1111111%;
+  width: 10%;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -725,4 +766,21 @@ html {
   margin-top: 10px;
   margin-left: 20px;
   display: block;
+}
+#wrap #map-hold {
+  width: 100%;
+  height: 400px;
+}
+#wrap #map-hold h2 {
+  margin: 5px 0px;
+}
+#wrap #map-hold p.details {
+  font-size: 12px;
+  line-height: 19px;
+}
+#wrap #map-hold .map-attribution.map-mm {
+  display: none;
+}
+#wrap #map-hold img {
+  border: 0px;
 }

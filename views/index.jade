@@ -31,18 +31,21 @@
                           | March 22-24 </br>
                           | Workshop begins 9:30 am the 22nd, finishes 4pm Sunday the 24th.
         .cl
-    .description_block
-      .description_hold
-        h5.left INFO.
-        .description.right Students are encouraged to bring their gear for some limited shooting exercises. </br> Time will be available for portfolio advice/feedback.
-        .cl
+  #map-hold
+  .description_block
+    .description_hold
+      h5.left INFO.
+      .description.right Students are encouraged to bring their gear for some limited shooting exercises. </br> Time will be available for portfolio advice/feedback.
+      .cl
   #calendar-wrap
     .inner
       h5 Calendar.
-      |<iframe src="https://www.google.com/calendar/embed?src=cv755f328lk0fn27lg4li26qjs%40group.calendar.google.com&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&mode=WEEK&showTz=0&ctz=America/New_York&dates=20130320%2F20130324" style="border: 0" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+      |<iframe src="https://www.google.com/calendar/embed?src=cv755f328lk0fn27lg4li26qjs%40group.calendar.google.com&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&mode=MONTH&showTz=0&ctz=America/New_York&dates=20130320%2F20130324" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
   #people
+    .inner
+      h5 The Staff.
     ul
-      - [{name: 'preston', img: "/img/preston.jpeg"},{name: 'chad', img: "/img/chads.jpg"},{name: 'justin', img: "/img/justincook.jpg"},{name: 'logan', img: "/img/logan1.jpg"},{name: 'martin', img: "/img/Martin_Smith_Rodden_1.jpg"},{name: 'melissa', img: "/img/melissa.jpg"},{name: 'pattie', img: '/img/pattie.jpg'},{name: 'scott', img: "/img/ScottStrazzanteMug.jpg"},{name: 'ross', img:"/img/rosst.jpg"}].forEach(function(elm, index){
+      - [{name: 'preston', img: "/img/preston.jpeg"},{name: 'chad', img: "/img/chads.jpg"},{name: 'justin', img: "/img/justincook.jpg"},{name: 'sam', img: '/img/sam.jpg'},{name: 'logan', img: "/img/logan1.jpg"},{name: 'martin', img: "/img/Martin_Smith_Rodden_1.jpg"},{name: 'melissa', img: "/img/melissa.jpg"},{name: 'pattie', img: '/img/pattie.jpg'},{name: 'scott', img: "/img/ScottStrazzanteMug.jpg"},{name: 'ross', img:"/img/rosst.jpg"}].forEach(function(elm, index){
         li
           img(src="#{elm.img}", data-id="#{elm.name}")
           .cover

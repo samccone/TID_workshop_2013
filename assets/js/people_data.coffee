@@ -40,6 +40,10 @@ Stevens has received one Emmy Award, two Emmy nominations, one Webby Award and m
 With a professional foundation in photojournalism and multimedia storytelling, Stevens' career spans the spectrum of newsroom environments, multimedia production and international experience. While living in Africa, he produced multimedia projects for Save the Children, <a href='http://aidchild.org/' target='_blank'>AIDchild</a> and Literacy and Basic Education.</br>
 
 He is a 1999 graduate of Western Kentucky University and a 2009 graduate of Ohio University, and has interned at National Geographic Magazine, The Hartford Courant, the Muskegon Chronicle and the Jackson Hole Guide. During his time as a student at Western Kentucky University, he traveled to Palestine and other Middle East countries. He was named 1997 College Photographer of the Year."
+  sam:
+    name: "Sam Saccone"
+    bio: "Sam Saccone is the founder of SamExhibit and a Ohio University graduate in the School of Visual Communication where he majored in photojournalism and minored in computer science. Some of his work can be seen on MediaStorm, CNN, Fortune and The Virginian Pilot. When he is not in front of his computer, you can most likely find him playing some old bluegrass reel on his mandolin."
+    link: "<a href='http://www.samsaccone.com' target='_blank'>samsaccone.com</a>"
   justin:
     name: "Justin Cook"
     bio: "is an independent documentary photographer and 2006 UNC alum who lives in Durham, NC where he works with a variety of editorial and commercial clients. From 2007-2010 he worked as a photojournalist at the The Roanoke Times. His work has been honored by College Photographer of the Year, Pictures of the Year International, The Best of Photojournalism, The Atlanta Photojournalism Seminar, Virginia Press Association, Society of Professional Journalists and other organizations. Some of his clients include The Wall Street Journal, USA Today, The Dallas Morning News, The St. Petersburg Times, The Flint Journal, The Denver Post, The Roanoke Times, Eat Smart Move More Weigh Less NC, Communities In Schools of North Carolina and UNC Health Care.</br>
