@@ -357,7 +357,7 @@ html {
     padding: 20px 0;
   }
   #wrap #people h5 {
-    width: 97%;
+    width: 85%;
     color: #fff;
     text-align: left;
     font-size: 40px;
@@ -365,7 +365,7 @@ html {
     position: relative;
     margin: 0px;
     padding-bottom: 20px;
-    left: 12%;
+    padding-left: 12%;
   }
   #wrap #people ul {
     list-style: none;
@@ -626,7 +626,7 @@ html {
   padding: 20px 0;
 }
 #wrap #people h5 {
-  width: 97%;
+  width: 85%;
   color: #fff;
   text-align: left;
   font-size: 40px;
@@ -634,7 +634,7 @@ html {
   position: relative;
   margin: 0px;
   padding-bottom: 20px;
-  left: 12%;
+  padding-left: 12%;
 }
 #wrap #people ul {
   list-style: none;
