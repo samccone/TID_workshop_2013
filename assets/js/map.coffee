@@ -7,7 +7,7 @@ window.TID.setMap = () ->
     interaction = mapbox.markers.interaction(markerLayer)
     map.addLayer markerLayer
 
-    # map.eventHandlers[3].remove()
+    map.eventHandlers[3].remove()
     if window.devicePixelRatio > 1
       map.tileSize = x: 128, y: 128
     map.centerzoom { lat: 37.935108, lon: -79.022798 }, 7
