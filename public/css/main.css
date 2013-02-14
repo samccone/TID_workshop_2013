@@ -374,6 +374,8 @@ html {
     margin: 0px;
     font-size: 0px;
     padding: 0px;
+    max-width: 900px;
+    margin: 0px auto;
   }
   #wrap #people ul li {
     display: inline-block;
@@ -643,6 +645,8 @@ html {
   margin: 0px;
   font-size: 0px;
   padding: 0px;
+  max-width: 900px;
+  margin: 0px auto;
 }
 #wrap #people ul li {
   display: inline-block;
