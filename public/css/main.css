@@ -377,7 +377,7 @@ html {
   }
   #wrap #people ul li {
     display: inline-block;
-    width: 10%;
+    width: 17%;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -646,7 +646,7 @@ html {
 }
 #wrap #people ul li {
   display: inline-block;
-  width: 10%;
+  width: 17%;
   overflow: hidden;
   position: relative;
   cursor: pointer;
