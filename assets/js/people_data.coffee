@@ -66,3 +66,20 @@ Martin received a degree in social sciences (sociology concentration) from Virgi
   mike:
     name: "Mike Davis"
     bio: "is an independent picture editor and educator who works with photographers around the world to elevate their photography for portfolios, projects, gallery shows, books and contest and grant submissions. Mike has been a picture editor and visual leader at National Geographic magazine, The White House and several of America’s leading newspapers. He is an adjunct faculty member at Syracuse University. Mike was twice named newspaper picture editor of the year and edited the work of several photographers of the year. He has been a picture editor for more than 20 books and taught many workshops and judged scores of contests."
+  jared:
+    name: "Jared Soares"
+    bio: "is an independent documentary photographer based in Washington, D.C.. He divides his time
+between client commissions and self-initiated projects that explore the relationship between community
+and individual identity.</br>
+
+In 2012 he was awarded grants from the Puffin Foundation and the National Press Photographers
+Association to begin work on a project about disappearing mining communities in Western Pennsylvania.
+From 2006-2010 he worked as a staff photojournalist at The Roanoke Times. His work there was
+honored by the National Press Photographers Association’s Best of Photojournalism, Virginia Press
+Association and the Society of Professional Journalists. He has also worked as an assistant in the Paris,
+France office of VII Photo Agency.</br></br>
+
+His project, SmallTown Hip hop in Virginia, was exhibited as a solo show during Look3 Festival of the
+Photograph at The Bridge PAI in Charlottesville, Virginia for the month of June 2012. It has also been
+shown at the O. Winston Link Museum, Roanoke, Virginia, as a solo show in October 2009, and at the
+Fotografia Festival Roma, Italy, as a group show in September 2010."
