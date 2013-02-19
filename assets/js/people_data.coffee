@@ -83,3 +83,17 @@ His project, SmallTown Hip hop in Virginia, was exhibited as a solo show during 
 Photograph at The Bridge PAI in Charlottesville, Virginia for the month of June 2012. It has also been
 shown at the O. Winston Link Museum, Roanoke, Virginia, as a solo show in October 2009, and at the
 Fotografia Festival Roma, Italy, as a group show in September 2010."
+  deb:
+    name: "Deb Pang Davis"
+    bio: "Deb Pang Davis is an interactive and print designer, educator, consultant and chocoholic. As Assistant Professor in the Multimedia Photography and Design department at the S.I. Newhouse School of Public Communications, she teaches undergraduate and graduate students about interactive design, typography, print design and running a creative business.
+</br>
+She continues to work with photographers and other right-brained entrepreneurs through her studio, Cococello. According to one client, “With her efforts, my business has taken a HUGE turn beyond my wildest dreams.” Many have a new sense of pride and ownership in their business. Prior to opening her studio doors, she was an art director and designer for magazines such as National Geographic Traveler, Virtuoso Life and several national newspapers.
+</br>
+Cococello:  <a href='http://www.cococello.com/'>http://www.cococello.com/</a>
+</br>
+Twitter:  <a href='http://www.twitter.com/Cococello/'>http://www.twitter.com/Cococello/</a>
+</br>
+Facebook:  <a href='http://www.facebook.com/Cococello'>http://www.facebook.com/Cococello</a>
+</br>
+Instagram:  <a href='www.followgram.me/dpdavis/'>www.followgram.me/dpdavis/</a>
+"

@@ -161,6 +161,10 @@ input[type='submit'] {
 }
 input[type="checkbox"],
 input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
 }
@@ -168,6 +172,10 @@ input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  -ms-box-sizing: content-box;
   box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-decoration {
@@ -288,6 +296,10 @@ html {
     font-size: 20px;
     text-transform: uppercase;
     color: rgba(0,0,0,0.78);
+    -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    -moz-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    -o-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
     opacity: 0.6;
     top: 5%;
@@ -383,6 +395,7 @@ html {
     overflow: hidden;
     position: relative;
     cursor: pointer;
+    margin: 9px;
   }
   #wrap #people ul li.active img {
     z-index: 12;
@@ -401,6 +414,9 @@ html {
     position: absolute;
     top: 0;
     left: 0;
+  }
+  #wrap #people ul li .cover:hover {
+    background: rgba(100,164,233,0.4);
   }
   #wrap #people .background {
     position: absolute;
@@ -559,6 +575,10 @@ html {
   font-size: 20px;
   text-transform: uppercase;
   color: rgba(0,0,0,0.78);
+  -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  -moz-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  -o-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   top: 5%;
@@ -654,6 +674,7 @@ html {
   overflow: hidden;
   position: relative;
   cursor: pointer;
+  margin: 9px;
 }
 #wrap #people ul li.active img {
   z-index: 12;
@@ -672,6 +693,9 @@ html {
   position: absolute;
   top: 0;
   left: 0;
+}
+#wrap #people ul li .cover:hover {
+  background: rgba(100,164,233,0.4);
 }
 #wrap #people .background {
   position: absolute;
