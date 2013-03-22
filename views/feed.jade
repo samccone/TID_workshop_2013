@@ -1,0 +1,11 @@
+html
+  head
+    style
+      * {text-align: center;}
+  body
+    | <a href="https://twitter.com/intent/tweet?button_hashtag=tidworkshop&text=TID%20Workshop%202013" class="twitter-hashtag-button" data-url="http://tidworkshop/feed">Tweet #tidworkshop</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    h1 The Image Deconstructed feed #tidworkshop
+
+    - for(i = 0; i < d.data.length; ++i)
+      img(src="#{d.data[i].images.standard_resolution.url}")
+
