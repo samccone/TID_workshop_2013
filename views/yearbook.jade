@@ -1,18 +1,24 @@
 h1 TID Yearbook 2013
 form(method="post", action="/yearbook")
   label(for="name") Name
+  br/
   input(id="name",name="name", type="text")
   br/
   label(for="email") Email
+  br/
   input(id="email", name="email", type="email")
   br/
   label(for="twitter") Twitter
+  br/
+  @
   input(id="twitter", name="twitter", type="text")
   br/
   label(for="instagram") Instagram
+  br/
   input(id="instagram", name="instagram", type="text")
   br/
   label(for="website") Website/Blog
-  input(id="website", name="website", type="text")
+  br/
+  input(id="website", name="website", type="text", value="http://www.")
   br/
   input(type="submit")

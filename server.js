@@ -25,12 +25,17 @@ var EntrySchema = new Schema({
 var Entry = mongoose.model('Entry', EntrySchema);
 
 server.get('/', function(req, res) {
-  res.redirect('/');
+  res.redirect('/entries');
 });
 
 server.get('/entries', function(req, res) {
+
   Entry.find({}, function(err, data) {
-    res.send(JSON.stringify(data, null, 4));
+    if (err) {
+      res.send(JSON.stringify(err, null, 4));
+    } else {
+      res.render("entries", {entries: data});
+    }
   });
 });
 
