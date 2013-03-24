@@ -24,10 +24,6 @@ var EntrySchema = new Schema({
 
 var Entry = mongoose.model('Entry', EntrySchema);
 
-server.get('/', function(req, res) {
-  res.redirect('/entries');
-});
-
 server.get('/entries', function(req, res) {
 
   Entry.find({}, function(err, data) {
@@ -50,7 +46,7 @@ server.post('/yearbook', function(req, res) {
     if (err) {
       res.send(JSON.stringify(err));
     } else {
-      res.redirect('/');
+      res.redirect('/entries');
     }
   });
 });
